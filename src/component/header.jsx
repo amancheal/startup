@@ -1,9 +1,11 @@
 import React from 'react';
 
 
-function Header(){
+function Header(props){
     return(
-        <div>hi</div>
+        <header className="app-header">
+            BeChael
+        </header>
     )
 }
 
